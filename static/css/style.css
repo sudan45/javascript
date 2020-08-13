@@ -13,3 +13,9 @@ justify-content: space-around;
 .flex-container div{
     padding: 5px;
 }
+
+
+.flex-container img:hover{
+    box-shadow:0px 10px 50px rgb(79, 230, 209);
+
+}
