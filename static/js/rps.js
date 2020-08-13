@@ -76,7 +76,7 @@ humandiv.innerHTML = "<h3 style='margin-top:0px;'>Your Choice </h3>"+"<img src='
 
 computerdiv.innerHTML ="<h3 style='margin-top:0px;'>Computer Choice </h3>"+"<img src='"+images[computerImagechoice]+"'height=150px width=150px>"
 messagediv.innerHTML = "<h1 style='color:"+finalmessage.color+"; font-size:50px; padding:30px;'>" +finalmessage.message + "</h1>"
-playagaindiv.innerHTML = "<h1 style=' font-size:50px; padding:30px;'> <a href='rockpaper.html' style='text-decoration: none; color:CFEE9E;'> Play again</a></h1>"
+playagaindiv.innerHTML = "<h1 style=' font-size:50px; padding:30px;'> <a href='rockpaper.html' style='text-decoration: none; color:715AFF;'> Play again</a></h1>"
 
 
 document.getElementById('flex-container-div').appendChild(humandiv);

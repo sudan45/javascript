@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2> Change the Button Color</h2>
+
+        <div class="flex-box-container">
+            <form>
+                <select onchange="changecolor(this)">
+                    <option name='random' value='random'> random</option>
+                    <option name='green' value='green'> green</option>
+                    <option name='blue' value='blue'> blue</option>
+                    <option name='red' value='red'> red</option>
+                    <option name='reset' value='reset'> reset</option>
+                </select>
+            </form>
+            <button class=" btn btn-primary"> Dell </button>
+            <button class=" btn btn-danger"> Samsung </button>
+            <button class=" btn btn-warning"> Apple </button>
+            <button class=" btn btn-dark"> lephone </button>
+            <button class=" btn btn-success"> Redmi </button>
+
+
+        </div>
+    </div>
+
+    <script src="static/js/btnchange.js"></script>
+    
+</body>
+</html>
