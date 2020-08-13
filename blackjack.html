@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1> BlackJack </h1>
+        <h2> Lets play</h2>
+        <div class="flex-box-container-blackjack">
+            <div class="human">
+                <h2> You : <span id="yourscore">0</span></h2>
+            </div>
+            <div class="bot">
+                <h2> Dealer : <span id="yourscore">0</span></h2>
+            </div>
+        </div>
+
+        <div class="flex-box-row">
+            <button class="btn btn-primary mr-2">Hit</button>
+            <button class="btn btn-warning mr-2">Stand</button>
+            <button class="btn btn-danger  mr-2">Deal</button>
+
+        </div>
+
+        <div class="result">
+            <table>
+                <tr>
+                    <th>Win</th>
+                    <th>Loss</th>
+                    <th>Draw</th>
+
+
+                </tr>
+                <tr>
+                    <td><span id="hit">0</span></td>
+                    <td><span id="stand">0</span></td>
+                    <td><span id="deal">0</span></td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="static/js/blackjack.js"></script>
+</body>
+</html>

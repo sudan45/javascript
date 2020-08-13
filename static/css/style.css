@@ -4,13 +4,37 @@
     text-align: center;
 }
 
-.flex-container,.flex-box-container{
-display: flex;
-border: 1px solid black;
-padding: 10px;
-justify-content: space-around;
+.flex-container,.flex-box-container,.flex-box-container-blackjack,.result{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
 }
- 
+.flex-box-container-blackjack{
+    background: url('https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/13756/images/13756_27f44a5f5f1554ad4b102344c9011489.jpg');
+    color: blanchedalmond;
+}
+
+.flex-box-row{
+    background: url('https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/13756/images/13756_27f44a5f5f1554ad4b102344c9011489.jpg');
+
+}
+
+.flex-box-container-blackjack div{
+    border:1px solid black;
+    padding: 10px;
+    flex:1;
+    height:350px;
+}
+table th,td{
+    padding: 5px;
+    border:1px solid black;
+}
+
+
+
 .flex-container div{
     padding: 5px;
 }
